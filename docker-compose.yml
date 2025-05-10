@@ -8,8 +8,8 @@ services:
     ports:
       - "2112:2112"
     environment:
-      - JELLYFIN_API_URL=http://your_jellyfin_host:8096
-      - JELLYFIN_TOKEN=your_jellyfin_api_token
+      - JELLYFIN_API_URL=http://192.168.100.16:8096
+      - JELLYFIN_TOKEN=187f26bdb1cb495c876ab03c96550c5b
       - SERVER_PORT=2112
     volumes:
       - ./config.env:/app/config.env
